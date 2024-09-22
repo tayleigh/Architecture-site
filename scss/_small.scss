@@ -37,6 +37,34 @@ header {
 
 
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
+#navWrapper{
+background-color: #ddd;
+}
+nav {
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    ul li {
+        list-style-type:none;
+    }
+    ul li a {
+        color: $primaryColor;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        padding: .8rem $gutter;
+        border-bottom: dashed 2px rbga(0,0,0,0.5);
+
+    }
+    ul li:last-child a {
+        border-bottom: none;
+    }
+    ul li.active a {
+        color: $primaryColor;
+        font-weight: $normalWeight;
+    }
+}
 
 
 
@@ -64,6 +92,10 @@ main {
         color: #333;
         line-height: $leading;
     }
+    .hero img {
+        width: 100%;
+        height: auto;
+      }
 }// end main
 
 
@@ -76,7 +108,7 @@ main {
 footer {
     font-size: .85rem;
     padding: 1rem $gutter;
-    color: $greyColor;
+    color: $secondaryColor;
     text-align: center;
     line-height: $leading;
     a {color: $greyColor;}
