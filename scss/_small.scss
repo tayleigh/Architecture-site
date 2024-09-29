@@ -96,6 +96,20 @@ main {
         width: 100%;
         height: auto;
       }
+      video {
+        width: 90%;
+        margin-left: 5%;
+      }
+      details {
+        margin: .5rem $gutter;
+        background-color: #ddd;
+        summary {
+            background-color: $secondaryColor;
+            padding: 10px;
+
+        }
+
+      }
 }// end main
 
 

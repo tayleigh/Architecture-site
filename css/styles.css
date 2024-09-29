@@ -381,6 +381,18 @@ main .hero img {
   width: 100%;
   height: auto;
 }
+main video {
+  width: 90%;
+  margin-left: 5%;
+}
+main details {
+  margin: 0.5rem 10px;
+  background-color: #ddd;
+}
+main details summary {
+  background-color: #BDBDBD;
+  padding: 10px;
+}
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
